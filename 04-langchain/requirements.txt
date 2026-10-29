@@ -1,0 +1,12 @@
+# Week 12 — LangChain v1
+langchain==1.4.2              # v1: chains/memory/AgentExecutor are gone (see langchain-classic)
+langchain-openai==1.6.2
+langgraph==1.2.11             # create_agent runs on LangGraph
+langchain-mcp-adapters==0.3.2
+mcp>=1.19,<2                  # FastMCP (mcp.server.fastmcp) only exists in 1.x
+python-dotenv>=1.0
+langchain-text-splitters==1.1.2
+tavily-python>=0.5
+pandas>=2.0
+matplotlib>=3.8
+python-pptx>=1.0              # only to rebuild the deck

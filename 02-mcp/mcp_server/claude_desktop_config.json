@@ -1,0 +1,21 @@
+{
+  "_comment": [
+    "Copy the 'mcpServers' block into your host app's config, then restart it.",
+    "Replace /ABSOLUTE/PATH with the real path to this folder -- these apps do not",
+    "expand ~ or run from your project directory, and a relative path will fail",
+    "silently with no error in the UI.",
+    "",
+    "  macOS   Claude Desktop : ~/Library/Application Support/Claude/claude_desktop_config.json",
+    "  Windows Claude Desktop : %APPDATA%\\Claude\\claude_desktop_config.json",
+    "  Cursor                 : .cursor/mcp.json in the project, or ~/.cursor/mcp.json",
+    "",
+    "Run `which python3` and use that exact interpreter -- the one with the 'mcp'",
+    "package installed. A venv python is fine; the system one often is not."
+  ],
+  "mcpServers": {
+    "incident-copilot": {
+      "command": "/ABSOLUTE/PATH/TO/python3",
+      "args": ["/ABSOLUTE/PATH/TO/week10/mcp_server/incident_server.py"]
+    }
+  }
+}

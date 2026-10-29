@@ -1,0 +1,7 @@
+# Week 10 — Agentic AI + MCP
+openai>=1.60
+tavily-python>=0.5
+python-dotenv>=1.0
+mcp>=1.19,<2          # FastMCP lives at mcp.server.fastmcp in 1.x; mcp 2.x removed it
+pandas>=2.0           # notebook 02 results table
+python-pptx>=1.0      # only needed to rebuild the deck

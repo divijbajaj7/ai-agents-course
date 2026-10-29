@@ -1,0 +1,7 @@
+# Week 11 — OpenAI Agents SDK
+openai-agents==0.22.3          # pinned. NOT [voice]: that extra forces numpy>=2 (breaks Anaconda base)
+mcp>=1.19,<2                   # FastMCP (mcp.server.fastmcp) only exists in 1.x
+python-dotenv>=1.0
+numpy>=1.26                    # voice: audio buffers (1.26 works)
+websockets>=11                 # voice
+python-pptx>=1.0               # only needed to rebuild the deck
